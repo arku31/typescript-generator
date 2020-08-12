@@ -1,0 +1,26 @@
+{
+    "name": "arku/typescript-interface",
+    "description": "arku/typescript-interface",
+    "type": "library",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Igor Tverdokhleb",
+            "email": "arku31@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "nette/robot-loader": "^3.3@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Arku\\": "src/",
+            "Arku\\Resources\\": "resources/",
+            "Arku\\tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.4@dev"
+    }
+}
